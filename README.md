@@ -7,7 +7,7 @@ Next:
 - add possibility include more than one range
 
 # How to use
-Requires "pandas" and "netaddr" modules. 
+Requires "pandas" and "netaddr" modules. Make sure that the column of IP addresses in your source file is named as "remote_address"
 
 Current configuration is exluding selected CIDR ranges addresses from end result. You can change in row 48 "right_only" to "both". 
 
