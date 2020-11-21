@@ -10,4 +10,4 @@ Next:
 Requires "pandas" and "netaddr" modules. Current configuration is exluding selected CIDR ranges addresses from end result. You can change in row 48 "right_only" to "both"
 
 - "right_only" = selects events that are NOT in selected CIRD range
-- "both" = selects events that are ONLY in selected CIRD rane
+- "both" = selects events that are ONLY in selected CIDR range
