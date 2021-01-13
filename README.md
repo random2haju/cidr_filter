@@ -29,7 +29,7 @@ optional arguments:
                         what filter you want to use e.g microsoft_range
   -m MERGE, --merge MERGE
                         'right_only' to exclude selected ranges from the result, 'both' to include ranges
-
+                        
 Example:
 python3 cidr_filter.py -i source.csv -o output.csv -f microsoft_range amazon_range -m right_only
 
